@@ -42,7 +42,7 @@ export class TextColumnsBlock extends Block {
   }
 
   toHTML() {
-    const html = this.value.map(item => col(item, 'column-text'))
+    const html = this.value.map(item => col(item, 'column-text'));
     return row(`
         ${html.join('')}
       `, this.options.styles
