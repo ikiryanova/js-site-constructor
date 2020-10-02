@@ -28,7 +28,8 @@ p {
 .column-text {
   margin-right: 15px;
   margin-left: 15px;
+  margin-bottom: 20px;
   background: #dee9f5a6;
   border-radius: 6px;
-  padding: 15px 
+  padding: 15px ;
 }

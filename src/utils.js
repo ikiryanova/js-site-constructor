@@ -4,7 +4,7 @@ export function row(content, styles = '') {
 
 export function col(content, className = '') {
   return `
-   <div class = "col-sm ${className}">
+   <div class = "col-md col-sm-12 ${className}">
       ${content}
     </div>`
 }

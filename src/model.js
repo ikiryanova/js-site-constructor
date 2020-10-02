@@ -3,7 +3,7 @@ import { TitleBlock, TextBlock, TextColumnsBlock, ImageBlock } from './classes/b
 import { css } from './utils';
 
 export const model = [
-  new TitleBlock('Test Title', {
+  new TitleBlock('Сайт -конструктор на чистом JavaScript', {
     tag: 'h2',
     styles: css({
       'text-align': 'center', 
@@ -11,7 +11,7 @@ export const model = [
     })
     }
   ),
-  new TextBlock('text text text',
+  new TextBlock('Сайт реализован по методологии ООП. Добавьте контент и css стили в левой панели.',
     {
       styles: css({
         margin: '15px 60px',
@@ -29,7 +29,7 @@ export const model = [
     {
       styles: css({
         padding: '1rem',
-        width: '1365px',
+        width: '90%',
         margin: '0 auto'
       })
     }
